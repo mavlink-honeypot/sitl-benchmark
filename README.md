@@ -95,8 +95,8 @@ Results from Table 14 in the paper (ArduPilot v4.5.1 SITL, RPi4 inference):
 ## Honeypot Deployment
 
 The honeypot has been deployed on two continents for real-world data collection:
-- **US (NYC)** — DigitalOcean NYC1
-- **India (BLR)** — DigitalOcean BLR1
+- **US** — Cloud VPS
+- **India** — Cloud VPS
 
 Combined statistics (as of May 2026):
 - 8,674+ connections from 1,971+ unique IPs

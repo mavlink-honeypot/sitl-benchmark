@@ -7,8 +7,8 @@ Uses pymavlink — the same library real attackers use.
 
 Usage:
     python3 simulate_real_attack.py 168.144.69.160 5760
-    python3 simulate_real_attack.py 147.182.183.238 5760 --attack gps_spoof
-    python3 simulate_real_attack.py 159.89.162.214 5760 --attack full_chain
+    python3 simulate_real_attack.py HONEYPOT_US_IP 5760 --attack gps_spoof
+    python3 simulate_real_attack.py HONEYPOT_IN_IP 5760 --attack full_chain
 """
 
 import sys

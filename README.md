@@ -95,13 +95,14 @@ Results from Table 14 in the paper (ArduPilot v4.5.1 SITL, RPi4 inference):
 ## Honeypot Deployment
 
 The honeypot has been deployed on two continents for real-world data collection:
-- **US** — Cloud VPS
-- **India** — Cloud VPS
+- **US** — Cloud VPS (adaptive + TCP ablation)
+- **India** — Cloud VPS (adaptive + static baseline)
 
 Combined statistics (as of May 2026):
-- 8,674+ connections from 1,971+ unique IPs
-- 118 fingerprinted attacker sessions
-- MAVLink-aware probes from 3 distinct threat actors
+- 63,849+ connections from 3,040+ unique IPs across 34+ countries
+- 147 MAVLink-aware probe sessions
+- 629 cross-server IPs independently observed on both continents
+- MAVLink-aware probes from 3+ distinct threat actors
 
 ## Citation
 
